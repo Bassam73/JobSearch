@@ -121,22 +121,24 @@ npm run dev
 
 ---
 
-##📂 Folder Structure
+## 📂 Folder Structure
 
-├── Database
-│   └── models       # MongoDB schemas (User, Company, Job, Application)
-├── src
-│   ├── controllers  # Business logic
-│   ├── routes       # Express routes
-│   ├── middleware   # Auth, validation, error handling
-│   └── utils        # Helpers (ApiFeatures, AppError)
-├── services         # File upload services
+JobSearch/
+├── Database/
+│   └── models/           # MongoDB schemas (User, Company, Job, Application)
+├── src/
+│   ├── controllers/      # Business logic
+│   ├── routes/           # Express routes
+│   ├── middleware/       # Auth, validation, error handling
+│   └── utils/            # Helpers (ApiFeatures, AppError)
+├── services/             # File upload services
 ├── package.json
 └── .env
 
+
 ---
 
-##🔒 Security & Access Control
+## 🔒 Security & Access Control
 
 - Email notifications for job applications
 - Admin dashboard & analytics
@@ -145,6 +147,6 @@ npm run dev
 
 ---
 
-##🎯 Demo
+## 🎯 Demo
 - Test API using Postman
 - Ready to integrate with React, Angular, or Vue frontend
