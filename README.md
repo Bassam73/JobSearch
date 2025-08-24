@@ -121,24 +121,6 @@ npm run dev
 
 ---
 
-## 📂 Folder Structure
-
-JobSearch/
-  Database/
-    models/           # MongoDB schemas (User, Company, Job, Application)
-  src/
-    controllers/      # Business logic
-    routes/           # Express routes
-    middleware/       # Auth, validation, error handling
-    utils/            # Helpers (ApiFeatures, AppError)
-  services/           # File upload services
-  package.json
-  .env
-
-
-
----
-
 ## 🔒 Security & Access Control
 
 - Email notifications for job applications
